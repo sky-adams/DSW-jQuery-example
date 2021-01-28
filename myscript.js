@@ -6,4 +6,13 @@ $(document).ready(function() {
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
 	});
+	
+	$("#hide").click(function(){
+  $("p").hide();
+});
+
+$("#show").click(function(){
+  $("p").show();
+});
+	
 });
